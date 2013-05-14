@@ -1,6 +1,6 @@
 " mix.vim - Plugin for using Elixir's build tool, `mix`.
 " Maintainer:   Matthew Conway <http://www.mattonrails.com/>
-" Version:      1.0
+" Version:      0.0.1
 
 function! s:Mix()
   execute '!mix'
