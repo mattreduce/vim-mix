@@ -17,4 +17,10 @@ endfunction
 
 command! -nargs=? Mix call s:Mix(<f-args>)
 
+function! s:Mclean()
+  call s:Mix('clean')
+endfunction
+
+command! Mclean call s:Mclean()
+
 " vim:set ft=vim et sw=2:
