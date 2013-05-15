@@ -2,10 +2,19 @@
 " Maintainer:   Matthew Conway <http://www.mattonrails.com/>
 " Version:      0.0.1
 
-function! s:Mix()
-  execute '!mix'
+if exists('g:loaded_mix') || &cp
+  finish
+endif
+let g:loaded_mix = 1
+
+function! s:Mix(...)
+  if a:0 == 0
+    execute '!mix'
+  else
+    execute '!mix '.a:1
+  endif
 endfunction
 
-command! Mix call s:Mix()
+command! -nargs=* Mix call s:Mix(<f-args>)
 
 " vim:set ft=vim et sw=2:
