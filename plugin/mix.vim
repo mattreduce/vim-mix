@@ -15,6 +15,6 @@ function! s:Mix(...)
   endif
 endfunction
 
-command! -nargs=* Mix call s:Mix(<f-args>)
+command! -nargs=? Mix call s:Mix(<f-args>)
 
 " vim:set ft=vim et sw=2:
