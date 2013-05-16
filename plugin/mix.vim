@@ -23,4 +23,10 @@ endfunction
 
 command! Mclean call s:Mclean()
 
+function! s:Mcompile()
+  call s:Mix('compile')
+endfunction
+
+command! Mcompile call s:Mcompile()
+
 " vim:set ft=vim et sw=2:

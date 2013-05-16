@@ -16,4 +16,6 @@ COMMANDS                                        *mix-commands*
 
 :Mclean                Cleans generated application files
 
+:Mcompile              Compiles source files
+
 vim:tw=78:et:ft=help:norl:

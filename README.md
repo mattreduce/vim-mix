@@ -14,11 +14,11 @@ I recommend installing [pathogen.vim][pathogen], then running the following:
 - `:Mix` runs the default mix task (the "run" task, unless otherwise
   configured).
 - `:Mclean` cleans generated application files
+- `:Mcompile` compiles sources files
 
 ## Planned commands
 
 - `:Mixfile` opens the project Mixfile.
-- `:Mcompile` compiles sources files
 - `:Mdeps` lists project dependencies and their status
 - `:Mdeps clean` removes dependency files
 - `:Mdeps compile` compiles dependencies
