@@ -14,4 +14,6 @@ COMMANDS                                        *mix-commands*
 		       unless the user has configured the project to use
 		       another task by default.
 
+:Mclean                Cleans generated application files
+
 vim:tw=78:et:ft=help:norl:
