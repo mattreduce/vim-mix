@@ -37,3 +37,5 @@ I recommend installing [pathogen.vim][pathogen], then running the following:
 
 Copyright © Matthew Conway. Distributed under the same terms as Vim itself.
 See `:help license`.
+
+[pathogen]: https://github.com/tpope/vim-pathogen
