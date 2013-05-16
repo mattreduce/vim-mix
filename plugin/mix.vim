@@ -11,8 +11,10 @@ function! s:Mix(...)
   if a:0 == 0
     execute '!mix'
   elseif a:0 == 1
+    " Execute a top-level mix command
     execute '!mix ' . a:1
   else
+    " Execute a subcommand, which is separated by a dot
     execute '!mix ' . a:1 . '.' . a:2
   endif
 endfunction
