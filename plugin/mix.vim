@@ -10,11 +10,14 @@ let g:loaded_mix = 1
 function! s:Mix(...)
   if a:0 == 0
     execute '!mix'
+  elseif a:0 == 1
+    execute '!mix ' . a:1
   else
-    execute '!mix '.a:1
+    execute '!mix ' . a:1 . '.' . a:2
   endif
 endfunction
 
+" TODO: support command options
 command! -nargs=? Mix call s:Mix(<f-args>)
 
 function! s:Mclean()
@@ -29,10 +32,14 @@ endfunction
 
 command! Mcompile call s:Mcompile()
 
-function! s:Mdeps()
-  call s:Mix('deps')
+function! s:Mdeps(...)
+  if a:0 == 0
+    call s:Mix('deps')
+  else
+    call s:Mix('deps', a:1)
+  endif
 endfunction
 
-command! Mdeps call s:Mdeps()
+command! -nargs=? Mdeps call s:Mdeps(<f-args>)
 
 " vim:set ft=vim et sw=2:

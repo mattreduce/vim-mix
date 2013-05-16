@@ -16,15 +16,17 @@ I recommend installing [pathogen.vim][pathogen], then running the following:
 - `:Mclean` cleans generated application files
 - `:Mcompile` compiles sources files
 - `:Mdeps` lists project dependencies and their status
+- `:Mdeps clean` removes dependency files
+- `:Mdeps compile` compiles dependencies
+- `:Mdeps get` gets all out of date dependencies
+- `:Mdeps unlock` unlocks all dependencies
+- `:Mdeps update` updates project dependencies
 
 ## Planned commands
 
 - `:Mixfile` opens the project Mixfile.
-- `:Mdeps clean` removes dependency files
-- `:Mdeps compile` compiles dependencies
-- `:Mdeps get` gets all out of date dependencies
-- `:Mdeps unlock` unlocks the given dependencies
-- `:Mdeps update` updates project dependencies
+- `:Mdeps unlock <deps>` unlocks _specific_ dependencies
+- `:Mdeps update <deps>` updates _specific_ dependencies
 - `:Mdo` executes the commands separated by comma
 - `:Mescript` generates an escript and replaces the current buffer
 - `:Mrebar` installs rebar locally

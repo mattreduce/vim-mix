@@ -10,14 +10,23 @@ This plugin wraps access to Elixir's leiningen-inspired build tool, mix.
 COMMANDS                                        *mix-commands*
 
                                                 *mix-:Mix*
-:Mix                   Runs the default mix task. This is the run task,
-		       unless the user has configured the project to use
-		       another task by default.
+:Mix [command]         Runs the default mix task. This is the run task,
+                       unless the user has configured the project to use
+                       another task by default.
 
+                                                *mix-:Mclean*
 :Mclean                Cleans generated application files.
 
+                                                *mix-:Mcompile*
 :Mcompile              Compiles source files.
 
-:Mdeps                 Lists all dependencies and their status.
+                                                *mix-:Mdeps*
+:Mdeps [subcommand]    Lists all dependencies and their status.
+
+ABOUT                                           *mix-about*
+
+Obtain the latest mix.vim or report a bug on GitHub:
+
+https://github.com/mattonrails/vim-mix
 
 vim:tw=78:et:ft=help:norl:
