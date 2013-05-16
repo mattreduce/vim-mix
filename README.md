@@ -15,11 +15,11 @@ I recommend installing [pathogen.vim][pathogen], then running the following:
   configured).
 - `:Mclean` cleans generated application files
 - `:Mcompile` compiles sources files
+- `:Mdeps` lists project dependencies and their status
 
 ## Planned commands
 
 - `:Mixfile` opens the project Mixfile.
-- `:Mdeps` lists project dependencies and their status
 - `:Mdeps clean` removes dependency files
 - `:Mdeps compile` compiles dependencies
 - `:Mdeps get` gets all out of date dependencies

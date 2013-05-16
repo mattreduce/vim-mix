@@ -14,8 +14,10 @@ COMMANDS                                        *mix-commands*
 		       unless the user has configured the project to use
 		       another task by default.
 
-:Mclean                Cleans generated application files
+:Mclean                Cleans generated application files.
 
-:Mcompile              Compiles source files
+:Mcompile              Compiles source files.
+
+:Mdeps                 Lists all dependencies and their status.
 
 vim:tw=78:et:ft=help:norl:

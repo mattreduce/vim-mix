@@ -29,4 +29,10 @@ endfunction
 
 command! Mcompile call s:Mcompile()
 
+function! s:Mdeps()
+  call s:Mix('deps')
+endfunction
+
+command! Mdeps call s:Mdeps()
+
 " vim:set ft=vim et sw=2:
