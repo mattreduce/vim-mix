@@ -30,7 +30,6 @@ I recommend installing [pathogen.vim][pathogen], then running the following:
 - `:Mdeps update <deps>` updates _specific_ dependencies
 - `:Mdo` executes the commands separated by comma
 - `:Mescript` generates an escript and replaces the current buffer
-- `:Mrebar` installs rebar locally
 - `:Mrun` runs the given expression
 
 ## License
