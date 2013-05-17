@@ -44,4 +44,11 @@ endfunction
 
 command! -nargs=? Mdeps call s:Mdeps(<f-args>)
 
+function! s:Mtest()
+  " TODO: load failures into the QuickFix list
+  call s:Mix('test')
+endfunction
+
+command! Mtest call s:Mtest()
+
 " vim:set ft=vim et sw=2:

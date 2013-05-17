@@ -21,6 +21,7 @@ I recommend installing [pathogen.vim][pathogen], then running the following:
 - `:Mdeps get` gets all out of date dependencies
 - `:Mdeps unlock` unlocks all dependencies
 - `:Mdeps update` updates project dependencies
+- `:Mtest` runs the project's tests
 
 ## Planned commands
 
@@ -31,7 +32,6 @@ I recommend installing [pathogen.vim][pathogen], then running the following:
 - `:Mescript` generates an escript and replaces the current buffer
 - `:Mrebar` installs rebar locally
 - `:Mrun` runs the given expression
-- `:Mtest` runs the project's tests
 
 ## License
 

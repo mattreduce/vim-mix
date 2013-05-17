@@ -23,6 +23,9 @@ COMMANDS                                        *mix-commands*
                                                 *mix-:Mdeps*
 :Mdeps [subcommand]    Lists all dependencies and their status.
 
+                                                *mix-:Mtest*
+:Mtest                 Runs the tests for a project.
+
 ABOUT                                           *mix-about*
 
 Obtain the latest mix.vim or report a bug on GitHub:
