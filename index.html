@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>mix.vim by mattonrails</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>mix.vim</h1>
+        <p>Vim plugin for using Elixir's build tool, mix</p>
+        <p class="view"><a href="https://github.com/mattonrails/vim-mix">View the Project on GitHub <small>mattonrails/vim-mix</small></a></p>
+        <ul>
+          <li><a href="https://github.com/mattonrails/vim-mix/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mattonrails/vim-mix/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mattonrails/vim-mix">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>I recommend installing <a href="https://github.com/tpope/vim-pathogen">pathogen.vim</a>, then running the following:</p>
+
+<pre><code>cd ~/.vim/bundle
+git clone git://github.com/mattonrails/vim-mix.git
+</code></pre>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<ul>
+<li>
+<code>:Mix [command]</code> runs the default mix task (the "run" task, unless otherwise
+configured), or the given command.</li>
+<li>
+<code>:Mclean</code> cleans generated application files</li>
+<li>
+<code>:Mcompile</code> compiles sources files</li>
+<li>
+<code>:Mdeps</code> lists project dependencies and their status</li>
+<li>
+<code>:Mdeps clean</code> removes dependency files</li>
+<li>
+<code>:Mdeps compile</code> compiles dependencies</li>
+<li>
+<code>:Mdeps get</code> gets all out of date dependencies</li>
+<li>
+<code>:Mdeps unlock</code> unlocks all dependencies</li>
+<li>
+<code>:Mdeps update</code> updates project dependencies</li>
+<li>
+<code>:Mtest</code> runs the project's tests</li>
+</ul><h2>
+<a name="planned-commands" class="anchor" href="#planned-commands"><span class="octicon octicon-link"></span></a>Planned commands</h2>
+
+<ul>
+<li>
+<code>:Mixfile</code> opens the project Mixfile.</li>
+<li>
+<code>:Mdeps unlock &lt;deps&gt;</code> unlocks <em>specific</em> dependencies</li>
+<li>
+<code>:Mdeps update &lt;deps&gt;</code> updates <em>specific</em> dependencies</li>
+<li>
+<code>:Mdo</code> executes the commands separated by comma</li>
+<li>
+<code>:Mescript</code> generates an escript and replaces the current buffer</li>
+<li>
+<code>:Mrun</code> runs the given expression</li>
+</ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright © Matthew Conway. Distributed under the same terms as Vim itself.<br>
+See <code>:help license</code>.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/mattonrails">mattonrails</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
