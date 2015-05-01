@@ -46,7 +46,7 @@ command! -nargs=? Mdeps call s:Mdeps(<f-args>)
 
 function! s:Mtest()
   " TODO: load failures into the QuickFix list
-  call s:Mix('test')
+  call s:Mix('test --no-color')
 endfunction
 
 command! Mtest call s:Mtest()
