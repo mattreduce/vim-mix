@@ -1,6 +1,6 @@
 *mix.txt*   Plugin for using Elixir's build tool, mix.
 
-Author: Matthew Conway <http://www.mattonrails.com/>
+Author: Matthew Conway <http://www.mattreduce.com/>
 License: Same terms as Vim itself (see |license|)
 
 INTRODUCTION                                    *mix*
@@ -30,6 +30,6 @@ ABOUT                                           *mix-about*
 
 Obtain the latest mix.vim or report a bug on GitHub:
 
-https://github.com/mattonrails/vim-mix
+https://github.com/mattreduce/vim-mix
 
 vim:tw=78:et:ft=help:norl:

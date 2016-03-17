@@ -7,7 +7,7 @@ Plugin for using Elixir's build tool, `mix`.
 I recommend installing [pathogen.vim][pathogen], then running the following:
 
     cd ~/.vim/bundle
-    git clone git://github.com/mattonrails/vim-mix.git
+    git clone git://github.com/mattreduce/vim-mix.git
 
 ## Usage
 
